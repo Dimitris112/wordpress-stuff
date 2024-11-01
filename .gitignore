@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+/vendor/
+
+/.vscode/
+/.idea/
+
+/wp-content/cache/
+
+wp-config.php
+.env
