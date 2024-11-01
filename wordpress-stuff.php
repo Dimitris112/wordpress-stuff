@@ -29,8 +29,6 @@ define("WORDPRESS_STUFF_URL", plugins_url('', WORDPRESS_STUFF_FILE)); // plugin 
 // check if class exists
 if (! class_exists('WordpressStuff')) {
     // include the class file
-    class WordpressStuff
-    {
-        include_once WORDPRESS_STUFF_DIR . '/includes/class-wordpress-stuff.php';
-    }
+
+    include_once WORDPRESS_STUFF_DIR . '/includes/class-wordpress-stuff.php';
 }
